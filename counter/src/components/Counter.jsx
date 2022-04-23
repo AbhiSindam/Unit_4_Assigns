@@ -9,7 +9,7 @@ export const Counter = ({value}) => {
     // console.log(count)
     return (
         <>
-            <h1>Counter is: {count % 2 === 0 ?   <span style={{color: "red"}}>{count}</span>:  <span style={{color: "green"}}>{count}</span>}</h1>
+            <h1>Counter is: {count % 2 === 0 ?   <span style={{color: "green"}}>{count}</span>:  <span style={{color: "red"}}>{count}</span>}</h1>
 
             <div className="btn">
 
