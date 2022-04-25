@@ -5,7 +5,6 @@ export const Timer = ({data}) => {
 
     data = +data
     // console.log(data)
-
     const [time, setTime] = useState(0)
 
     useEffect(() => {
